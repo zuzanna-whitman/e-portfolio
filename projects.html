@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Projects — Zuzanna Wieczorek</title>
+  <meta name="description" content="Projects, tutorials, and writing samples by Zuzanna Wieczorek." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header container header-inner">
+    <h1 class="logo">Zuzanna Wieczorek</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="Resume.pdf" target="_blank" rel="noopener">Resume</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h2>Projects & Tutorials</h2>
+
+    <section id="project-host" class="project">
+      <h3>Network Setup Simulation</h3>
+      <p><strong>Summary:</strong> Designed and configured a multi-subnet network topology in Cisco Packet Tracer. The environment includes two segmented subnets, a DNS server for name resolution, a DHCP server for automated IP allocation, and a fully functioning web server. The project demonstrates practical networking skills such as subnetting, routing, server configuration, and end-to-end connectivity validation.</p>
+      <p>
+        <a href="Cisco_Paket_Tracer_Network_Setup.pdf" target="_blank" rel="noopener">Download Network Setup Simulation (PDF)</a>
+      </p>
+    </section>
+
+    <section id="project-host" class="project">
+      <h3>Host Compliance Tutorial — Greenbone & SCAP</h3>
+      <p><strong>Summary:</strong> A tutorial demonstrating how to use Greenbone and SCAP tools to assess host compliance with STIG benchmarks. Includes lab steps, challanges, and remediation suggestions.</p>
+      <p>
+        <a href="Host_Compliance_Tutorial.pdf" target="_blank" rel="noopener">Download Host Compliance Tutorial (PDF)</a>
+      </p>
+    </section>
+
+    <section id="project-so" class="project">
+      <h3>Security Onion Log Analysis Tutorial</h3>
+      <p><strong>Summary:</strong> Log analysis walkthrough using Security Onion. Analysis of simulated attacks against a vulnerable VM, with detection rules and indicators of compromise. Includes lab steps, challanges, and remediation suggestions.</p>
+      <p>
+        <a href="Security_Onion_Tutorial.pdf" target="_blank" rel="noopener">Download Security Onion Tutorial (PDF)</a>
+      </p>
+    </section>
+
+    <hr/>
+    <p><a href="index.html">← Back to home</a></p>
+  </main>
+
+  <footer class="site-footer container">
+    <small>© <span id="year2"></span> Zuzanna Wieczorek</small>
+  </footer>
+
+  <script>
+    document.getElementById('year2').textContent = new Date().getFullYear();
+  </script>
+  <script src="js/main.js"></script>
+</body>
+</html>
